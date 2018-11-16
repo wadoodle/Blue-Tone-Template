@@ -1,0 +1,144 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#page {
+  background-color: white;
+  padding: 15px;
+}
+
+#iconContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.navIcon {
+  margin: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: goldenrod;
+}
+
+#phoneNum {
+  display: none;
+}
+
+#dogImage {
+  margin: 10px 0 7px 0;
+  max-width: 100%;
+}
+
+#about, #services, #contact {
+  padding: 15px;
+  background-color: goldenrod;
+  color: white;
+}
+
+#services {
+  margin: 10px 0;
+}
+
+#dogImage {
+  max-width: 100%;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  body {
+    max-width: 1080px;
+    margin: auto;
+    background-color: #efefef;
+  }
+
+  #phoneNum {
+    display: block;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+
+  #logo {
+    margin-left: 10px;
+  }
+
+  #iconContainer {
+    margin: 0 10px 0 auto;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  #firstLink {
+    margin-left: 20px;
+  }
+
+  .navLink {
+    margin: 0 10px;
+  }
+
+  #phoneNum {
+    margin: 0 20px 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+
+  #sideBySideCon {
+    display: flex; 
+    justify-content: space-around;
+  }
+
+  #services {
+    margin: 0 10px;
+  }
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: lightgrey;
+}
+
+a:active {
+  color: darkgrey;
+}
+
+a.iconlink {
+  color: black;
+}
+
+a.iconLink:visited {
+  color: black;
+}
+
+a.iconLink:hover {
+  color: lightgrey;
+}
+
+
