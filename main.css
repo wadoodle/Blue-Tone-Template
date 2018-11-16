@@ -110,7 +110,11 @@ p {
   #services {
     margin: 0 10px;
   }
-}
+  
+  article {
+    padding: 0 100px;
+  }
+ }
 
 a:link {
   color: white;
